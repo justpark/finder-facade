@@ -1,21 +1,11 @@
 {
-    "name": "sebastian/finder-facade",
+    "name": "justpark/finder-facade",
     "description": "FinderFacade is a convenience wrapper for Symfony's Finder component.",
-    "homepage": "https://github.com/sebastianbergmann/finder-facade",
+    "homepage": "https://github.com/justpark/finder-facade",
     "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "Sebastian Bergmann",
-            "email": "sebastian@phpunit.de",
-            "role": "lead"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/sebastianbergmann/finder-facade/issues"
-    },
     "prefer-stable": true,
     "require": {
-        "php": "^7.3",
+        "php": "^7.3|^8.0",
         "ext-ctype": "*",
         "theseer/fdomdocument": "^1.6",
         "symfony/finder": "^4.1|^5.0"
